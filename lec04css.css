@@ -1,0 +1,14 @@
+h3{font-style:italic}
+p{font-size:10pt;font-weight:bold;}
+strong{font-size:10pt; font-style:italic;text-decoration:underline}
+#a{font-size: 8pt;}
+#b{color:blueviolet;}
+
+.red1{color:red; font-style:italic;}
+strong.red1{font-size:12pt;}
+#next{color:blue; text-align: center;}
+
+a:link{color:blue;}
+a:visited{color:blue;}
+h3:before{content:"★"; color:blue}
+h3:after{content:"✌"; font-size:10pt;}
