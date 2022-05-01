@@ -1,0 +1,22 @@
+
+.term{text-decoration: underline;}
+
+@font-face {
+    font-family: "Malgun Gothic";
+    src: url(../webprogram/malgun.ttf);
+    unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+    font-family: 'Times New Roman', Times, serif;
+    src: url(../webprogram/times\ new\ roman.ttf/);
+    src: url(../webprogram/times\ new\ roman\ bold.ttf);
+    src: url(../webprogram/times\ new\ roman\ bold\ italic.ttf);
+    unicode-range: U+0041-005A, unicode-range: U+0061-007A;
+}
+
+body {
+    font-family: '맑은고딕';
+
+    text-align: center;
+}
