@@ -1,0 +1,13 @@
+var fruit = [{ name: '바나나', quantity: 40, price: 1500 },
+{ name: '사과', quantity: 30, price: 500 },
+{ name: '포도', quantity: 55, price: 1800 }]
+
+function createTable(con){
+    var tbl = '<table>';
+var tbl2 = '</table>';
+var result = '';
+con.forEach(function(item){
+        result += '<tr>' + '<td>' + item.name + '</td>' + '<td>' + item.quantity + '</td>' + '<td>' + item.price + '</td>' + '</tr>'
+});
+return tbl + result +tbl2;
+}
